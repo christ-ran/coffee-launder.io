@@ -4,10 +4,30 @@
 
 @layer base {
   :root {
-    --primary-bg-col: 254 250 247;
+    --light-500: 163 163 163;
+    --dark-400: 69 69 69;
+    --dark-500: 31 31 31;
   }
 }
 
-body {
-  box-sizing: border-box;
+.grain {
+  background-image: url("../public/grain.png");
+  background-size: 30ex;
+  background-repeat: repeat;
+}
+
+h1 {
+  line-height: 100%;
+}
+
+h2, h3 {
+  line-height: 120%;
+}
+
+.hero-screen {
+  height: calc(520px + 10vh);
+}
+
+.inline {
+  display: inline-block;
 }
