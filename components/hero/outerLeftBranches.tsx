@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import CoffeeBranchV3 from "@/public/coffee-branch-v3.svg";
+import CoffeeBranchV3 from "@/public/branches/coffee-branch-v3.svg";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 

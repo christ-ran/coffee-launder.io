@@ -12,7 +12,14 @@
 
 .grain {
   background-image: url("../public/grain.png");
-  background-size: 30ex;
+  /* background-size: 30ex; */
+  background-size: 40ex;
+  background-repeat: repeat;
+}
+
+.grain-dark {
+  background-image: url("../public/grain-black.png");
+  background-size: 50ex;
   background-repeat: repeat;
 }
 

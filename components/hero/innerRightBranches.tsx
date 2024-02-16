@@ -1,6 +1,6 @@
-import CoffeeBranchV1 from "@/public/coffee-branch-v1.svg";
-import CoffeeBranchV2 from "@/public/coffee-branch-v2.svg";
-import RowanBranchV1 from "@/public/rowan-branch-v1.svg";
+import CoffeeBranchV1 from "@/public/branches/coffee-branch-v1.svg";
+import CoffeeBranchV2 from "@/public/branches/coffee-branch-v2.svg";
+import RowanBranchV1 from "@/public/branches/rowan-branch-v1.svg";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import Image from "next/image";

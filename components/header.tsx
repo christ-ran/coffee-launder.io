@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="xs:hidden md:block">
+    <header>
       <div className="fixed px-[8vw] xs:py-[6vh] sm:py-[15vh] xs:h-[auto] sm:h-screen xs:w-full sm:w-max flex flex-col justify-between items-start z-10 border-light-500">
         <div>
           <h1 className="font-std-emberly text-[7.5vh] font-bold capitalize">
