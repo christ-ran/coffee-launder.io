@@ -11,8 +11,8 @@ export default function Hero() {
   return (
     <section id="hero" className="relative overflow-hidden">
       <div className="px-[8vw] py-[15vh] h-screen w-full flex items-center justify-end">
-        <div className="h-[800px] xs:w-full sm:w-[65.5vw] max-w-[1000px] xs:bg-dark-500 md:bg-white relative overflow-hidden flex justify-center items-center grain-dark">
-          <div className="h-[600px] w-[800px] mx-auto bg-dark-500 flex flex-col items-center justify-around grain relative overflow-hidden">
+        <div className="h-[800px] xs:w-full lg:w-[65.5vw] max-w-[1000px] xs:bg-dark-500 md:bg-white relative overflow-hidden flex justify-center items-center grain-dark">
+          <div className="h-[600px] w-[800px] mx-auto bg-dark-500 flex flex-col items-center justify-around grain relative overflow-hidden shadow">
             <h6 className="font-narrow-emberly text-[0.975rem] text-light-500 text-center xs:relative md:auto z-[1]">
               Currently available for Free-lance & Full-time Jobs.
             </h6>

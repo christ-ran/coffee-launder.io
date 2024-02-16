@@ -7,6 +7,9 @@
     --light-500: 163 163 163;
     --dark-400: 69 69 69;
     --dark-500: 31 31 31;
+    --gold-300: 195 176 145;
+    --gold-400: 155 130 88;
+    --gold-500: 140 122 93;
   }
 }
 
@@ -37,4 +40,8 @@ h2, h3 {
 
 .inline {
   display: inline-block;
+}
+
+.shadow {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }

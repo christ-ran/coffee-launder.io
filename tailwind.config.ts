@@ -19,6 +19,11 @@ const config: Config = {
         },
         light: {
           500: "rgb(var(--light-500))"
+        },
+        gold: {
+          300: "rgb(var(--gold-300))",
+          400: "rgb(var(--gold-400))",
+          500: "rgb(var(--gold-500))"
         }
       },
       fontFamily: {
