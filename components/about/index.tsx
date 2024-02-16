@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Saigon1 from "@/public/saigon/saigon-1.png";
+import SaigonStamp1 from "@/public/saigon/saigon-stamp-2.png";
 
 export default function AboutMe() {
   return (
@@ -37,8 +38,8 @@ export default function AboutMe() {
             </div>
           </div>
           <div className="grid grid-rows-2">
-            <div className="lg:h-full w-full max-h-[500px]  bg-white grain-black relative flex items-center justify-center">
-              <div className="w-[90%] h-[85%] bg-dark-500 grain relative shadow-2xl">
+            <div className="lg:h-full w-full max-h-[500px] bg-white grain-black relative flex items-center justify-center shadow-2xl">
+              <div className="w-[90%] h-[85%] bg-dark-500 grain relative shadow-3xl">
                 <Image
                   src={Saigon1}
                   alt="saigon-1"
@@ -49,6 +50,13 @@ export default function AboutMe() {
                 <h6 className="font-narrow-emberly xs:text-[3.6vw] lg:text-[1.2vw] text-black">
                   A part of district 1 in Saigon - 1972
                 </h6>
+              </div>
+              <div className="absolute top-[-40px] right-[-50px] rotate-[40deg] shadow-3xl">
+                <Image
+                  src={SaigonStamp1}
+                  alt="saigon-stamp-1"
+                  className="w-[140px] h-[82px]"
+                />
               </div>
             </div>
             <div className="flex flex-col justify-between">
