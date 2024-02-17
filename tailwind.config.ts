@@ -22,6 +22,7 @@ const config: Config = {
           500: "rgb(var(--light-500))"
         },
         gold: {
+          200: "rgb(var(--gold-200))",
           300: "rgb(var(--gold-300))",
           400: "rgb(var(--gold-400))",
           500: "rgb(var(--gold-500))"
