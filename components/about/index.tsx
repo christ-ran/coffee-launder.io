@@ -38,7 +38,7 @@ export default function AboutMe() {
             </div>
           </div>
           <div className="grid grid-rows-2">
-            <div className="lg:h-full w-full max-h-[500px] bg-white grain-black relative flex items-center justify-center shadow-2xl">
+            <div className="h-full w-full max-h-[500px] bg-white grain-black relative flex items-center justify-center shadow-2xl rotate-[4deg]">
               <div className="w-[90%] h-[85%] bg-dark-500 grain relative shadow-3xl">
                 <Image
                   src={Saigon1}
@@ -46,8 +46,8 @@ export default function AboutMe() {
                   className="absolute w-full h-full object-contain"
                 />
               </div>
-              <div className="absolute bottom-0">
-                <h6 className="font-narrow-emberly xs:text-[3.6vw] lg:text-[1.2vw] text-black">
+              <div className="absolute bottom-0 mix-blend-difference">
+                <h6 className="font-narrow-emberly xs:text-[3.6vw] lg:text-[1.2vw]">
                   A part of district 1 in Saigon - 1972
                 </h6>
               </div>
