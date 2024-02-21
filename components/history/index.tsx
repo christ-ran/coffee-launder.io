@@ -7,6 +7,7 @@ import Saigon6 from "@/public/saigon/saigon-6.png";
 import Saigon7 from "@/public/saigon/saigon-7.png";
 import Saigon8 from "@/public/saigon/saigon-8.png";
 import Saigon9 from "@/public/saigon/saigon-9.png";
+import SaigonStamp3 from "@/public/saigon/saigon-stamp-3.png";
 
 export default function History() {
   return (
@@ -128,6 +129,13 @@ export default function History() {
                     src={Saigon8}
                     alt="saigon-8"
                     className="absolute w-full h-full object-contain"
+                  />
+                </div>
+                <div className="absolute top-[-50px] right-[-50px] shadow-3xl rotate-[-4deg]">
+                  <Image
+                    src={SaigonStamp3}
+                    alt="saigon-stamp-3"
+                    className="w-[134px] h-[154px]"
                   />
                 </div>
               </div>
