@@ -16,7 +16,8 @@ const config: Config = {
       colors: {
         dark: {
           500: "rgb(var(--dark-500))",
-          600: "rgb(var(--dark-600))"
+          600: "rgb(var(--dark-600))",
+          700: "rgb(var(--dark-700))"
         },
         light: {
           500: "rgb(var(--light-500))"
