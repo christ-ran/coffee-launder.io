@@ -38,7 +38,7 @@ export default function AboutMe() {
             </div>
           </div>
           <div className="grid grid-rows-2">
-            <div className="h-full w-full max-h-[500px] bg-white grain-black relative flex items-center justify-center shadow-2xl rotate-[4deg]">
+            <div className="h-full w-full bg-white grain-black relative flex items-center justify-center shadow-2xl rotate-[4deg]">
               <div className="w-[90%] h-[85%] bg-dark-500 grain relative shadow-3xl">
                 <Image
                   src={Saigon1}
