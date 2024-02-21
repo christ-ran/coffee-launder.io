@@ -38,7 +38,7 @@ export default function History() {
               </div>
             </div>
             <div className="self-end">
-              <div className="bg-white shadow-3xl flex items-center justify-center relative xs:h-[63vw] lg:h-[23vw]">
+              <div className="bg-white shadow-3xl flex items-center justify-center relative xs:h-[63vw] lg:h-[23vw] grain-dark">
                 <div className="w-[90%] h-[85%] bg-dark-500 grain relative shadow-3xl">
                   <Image
                     src={Saigon7}
@@ -78,14 +78,25 @@ export default function History() {
                 </h6>
               </div>
             </div>
-            <div className="self-end">
-              <div className="bg-white shadow-3xl flex items-center justify-center relative  xs:h-[63vw] lg:h-[17vw]">
+            <div className="self-end relative">
+              <div className="bg-white shadow-3xl flex items-center justify-center relative  xs:h-[63vw] lg:h-[17vw] grain-dark">
                 <div className="w-[90%] h-[85%] bg-dark-500 grain relative shadow-3xl">
                   <Image
-                    src={Saigon9}
-                    alt="saigon-9"
+                    src={Saigon5}
+                    alt="saigon-5"
                     className="absolute w-full h-full object-contain"
                   />
+                </div>
+              </div>
+              <div className="absolute z-20 top-[-15px] right-[-10px] w-full">
+                <div className="bg-white shadow-3xl flex items-center justify-center relative  xs:h-[63vw] lg:h-[17vw] w-full grain-dark rotate-[-5deg]">
+                  <div className="w-[90%] h-[85%] bg-dark-500 grain relative shadow-3xl">
+                    <Image
+                      src={Saigon9}
+                      alt="saigon-9"
+                      className="absolute w-full h-full object-contain"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -111,7 +122,7 @@ export default function History() {
               </div>
             </div>
             <div className="self-end">
-              <div className="bg-white shadow-3xl flex items-center justify-center relative  xs:h-[63vw] lg:h-[21vw]">
+              <div className="bg-white shadow-3xl flex items-center justify-center relative  xs:h-[63vw] lg:h-[21vw] grain-dark">
                 <div className="w-[90%] h-[85%] bg-dark-500 grain relative shadow-3xl">
                   <Image
                     src={Saigon8}
