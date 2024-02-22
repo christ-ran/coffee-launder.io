@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { narrow_emberly, std_emberly } from "@/libs/fonts";
 import Header from "@/components/header";
+import Lenis from "./lenis";
 
 export const metadata: Metadata = {
   title: "Coffee Launder - Software Engineer",
@@ -18,8 +19,8 @@ export default function RootLayout({
       <body
         className={`bg-dark-500 text-white ${std_emberly.variable} ${narrow_emberly.variable} box-border grain`}
       >
-        <Header />
-        {children}
+        {/* <Header /> */}
+        <Lenis>{children}</Lenis>
       </body>
     </html>
   );
