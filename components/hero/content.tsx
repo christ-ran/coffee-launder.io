@@ -14,7 +14,7 @@ export default function Content() {
     gsap.registerPlugin(ScrollTrigger);
 
     gsap.to("#hero-h1-software-engineer", {
-      yPercent: -50,
+      yPercent: -160,
       ease: "none",
       scrollTrigger: {
         scrub: 1

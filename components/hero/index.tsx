@@ -6,7 +6,7 @@ import Sidebar from "./sidebar";
 export default function Hero() {
   return (
     <section id="hero" className="relative overflow-hidden">
-      <div className="flex flex-row px-[8vw] h-screen w-full">
+      <div className="flex flex-row px-[8vw] h-screen w-full border-b border-b-light-500">
         <Sidebar />
         <Content />
       </div>

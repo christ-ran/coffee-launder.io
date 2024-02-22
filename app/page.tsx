@@ -8,8 +8,8 @@ export default function Home() {
     <main className="relative overflow-x-hidden">
       <Hero />
       <AboutMe />
-      {/* <AboutMe />
       <History />
+      {/*
       <Connect /> */}
     </main>
   );

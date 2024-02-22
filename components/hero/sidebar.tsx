@@ -9,7 +9,7 @@ export default function Sidebar() {
     gsap.registerPlugin(ScrollTrigger);
 
     gsap.to("#hero-h1-portfolio", {
-      xPercent: -50,
+      xPercent: -300,
       ease: "none",
       scrollTrigger: {
         scrub: 1
@@ -17,7 +17,7 @@ export default function Sidebar() {
     });
 
     gsap.to("#hero-h2-coffee-launder", {
-      xPercent: 50,
+      xPercent: 100,
       ease: "none",
       scrollTrigger: {
         scrub: 1
@@ -26,20 +26,21 @@ export default function Sidebar() {
   });
 
   return (
-    <div className="xs:hidden lg:block h-full w-full  py-[10vh] max-w-[15vw]">
+    <div className="xs:hidden lg:block h-full w-full  py-[10vh] max-w-[15vw] border-r border-r-light-500">
       <div className="relative h-full w-full">
         <div className="absolute bottom-[22vh] left-[-9.4vw] rotate-[-90deg]">
           <h1
             id="hero-h1-portfolio"
             className="font-narrow-emberly text-[17vh] font-bold uppercase"
           >
-            portfolio<span className="text-gold-300">.</span>
+            portfolio
           </h1>
           <h2
             id="hero-h2-coffee-launder"
             className="font-narrow-emberly text-[5.5vh] font-bold uppercase"
           >
-            coffee launder
+            {/* coffee &mdash; launder */}
+            ポートフォリオ
           </h2>
         </div>
       </div>

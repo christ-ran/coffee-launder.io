@@ -1,12 +1,13 @@
 import Image from "next/image";
 import Saigon1 from "@/public/saigon/saigon-1.png";
 import SaigonStamp1 from "@/public/saigon/saigon-stamp-2.png";
+import Sidebar from "./sidebar";
 
 export default function AboutMe() {
   return (
-    <section id="about-me" className="relative">
-      <div className="px-[8vw] xs:py-[8vh] lg:py-[15vh] bg-dark-500 h-full w-full flex justify-end grain">
-        <div className="xs:w-full lg:w-[65.5vw] grid xs:grid-cols-1 lg:grid-cols-2 xs:gap-10 lg:gap-0">
+    <section id="about-me" className="overflow-hidden">
+      <div className="px-[8vw] xs:h-full lg:h-screen w-full flex flex-row bg-dark-500 grain">
+        <div className="xs:py-[8vh] lg:py-[15vh] xs:w-full lg:w-[85vw] grid xs:grid-cols-1 lg:grid-cols-2 xs:gap-10 lg:gap-0">
           <div className="grid grid-rows-2">
             <div className="flex flex-col justify-between">
               <h1 className="font-narrow-emberly xs:text-[12vw] lg:text-[4.5vw] font-bold capitalize">
@@ -73,6 +74,7 @@ export default function AboutMe() {
             </div>
           </div>
         </div>
+        <Sidebar />
       </div>
     </section>
   );
