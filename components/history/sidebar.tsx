@@ -13,8 +13,7 @@ export default function Sidebar() {
         trigger: "#history-sidebar-container",
         scrub: true,
         start: "top 100%",
-        end: `+=${window.innerHeight}`,
-        markers: true
+        end: `+=${window.innerHeight}`
       },
       xPercent: -100,
       animationDuration: 2,
@@ -36,7 +35,7 @@ export default function Sidebar() {
             my humble history
           </h1>
         </div>
-        <div className="absolute bottom-[20vw] left-[-15vw] rotate-[-90deg]">
+        <div className="absolute bottom-[20vw] left-[-22vw] rotate-[-90deg]">
           <h2 className="font-narrow-emberly text-[5.5vh] font-bold whitespace-nowrap capitalize">
             &quot;Luck Is What Happens When Preparation Meets Opportunity&quot;
           </h2>

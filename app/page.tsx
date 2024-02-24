@@ -9,8 +9,7 @@ export default function Home() {
       <Hero />
       <AboutMe />
       <History />
-      {/*
-      <Connect /> */}
+      <Connect />
     </main>
   );
 }

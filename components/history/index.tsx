@@ -9,7 +9,7 @@ export default function History() {
   return (
     <section
       id="history"
-      className="px-[8vw] grid left-section bg-dark-700 grain-light h-full overflow-hidden"
+      className="px-[8vw] grid left-section bg-dark-700 grain-light h-full overflow-hidden border-b border-b-light-500"
     >
       <Sidebar />
       <div className="xs:py-[8vh] lg:py-[15vh] h-full w-full flex justify-end">
