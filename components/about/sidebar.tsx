@@ -9,21 +9,24 @@ export default function Sidebar() {
     gsap.registerPlugin(ScrollTrigger);
 
     gsap.to("#about-h1-about-me", {
+      xPercent: 300,
+      ease: "none",
       scrollTrigger: {
-        trigger: "#trigger",
-        scrub: true,
-        start: "top 100%",
-        end: `+=${window.innerHeight / 1}`,
-        markers: true
-      },
-      xPercent: 200,
-      ease: "none"
+        scrub: 1
+      }
+    });
+    gsap.to("#about-h2-about-me", {
+      xPercent: -300,
+      ease: "none",
+      scrollTrigger: {
+        scrub: 1
+      }
     });
   });
 
   return (
-    <div className="xs:hidden lg:block h-full w-full max-w-[15vw] border-l border-l-light-500">
-      <div className="relative h-full w-full" id="trigger">
+    <div className="xs:hidden lg:block h-full w-full max-w-[15vw] border-l border-l-light-500  py-[15vh]">
+      <div className="relative h-full w-full flex items-end" id="trigger">
         <div className="absolute top-[-31vh] right-[-9.4vw] rotate-[90deg]">
           <h1
             id="about-h1-about-me"
@@ -31,6 +34,14 @@ export default function Sidebar() {
           >
             about me
           </h1>
+        </div>
+        <div className="absolute bottom-[13vh] left-[-6vh] rotate-[90deg]">
+          <h2
+            id="about-h2-about-me"
+            className="font-narrow-emberly text-[5.5vh] font-bold uppercase whitespace-nowrap"
+          >
+            私について
+          </h2>
         </div>
       </div>
     </div>

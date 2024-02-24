@@ -3,15 +3,20 @@ import Saigon7 from "@/public/saigon/saigon-7.png";
 import Saigon8 from "@/public/saigon/saigon-8.png";
 import Saigon9 from "@/public/saigon/saigon-9.png";
 import Image from "next/image";
+import Sidebar from "./sidebar";
 
 export default function History() {
   return (
-    <section id="history">
-      <div className="px-[8vw] xs:py-[8vh] lg:py-[15vh] bg-dark-600 h-full w-full flex justify-end grain-light">
-        <div className="xs:w-full lg:w-[65.5vw] grid grid-rows-3 gap-8">
+    <section
+      id="history"
+      className="px-[8vw] grid left-section bg-dark-700 grain-light h-full overflow-hidden"
+    >
+      <Sidebar />
+      <div className="xs:py-[8vh] lg:py-[15vh] h-full w-full flex justify-end">
+        <div className="grid grid-rows-3 gap-8 w-full">
           <div className="grid xs:grid-cols-1 lg:grid-cols-2 gap-8">
             <div className="xs:order-last lg:order-none flex xs:items-start lg:items-center">
-              <div>
+              <div className="ml-0 lg:ml-[10vw]">
                 <h6 className="font-narrow-emberly xs:text-[3.6vw] lg:text-[1.2vw] text-light-500 mt-[3vh]">
                   January 2022 &mdash; March 2022
                 </h6>
@@ -84,7 +89,7 @@ export default function History() {
                   />
                 </div>
               </div>
-              <div className="absolute z-20 top-[-15px] right-[-10px] w-full">
+              <div className="absolute z-20 top-[-15px] right-[-20px] lg:right-[20px] w-full">
                 <div className="bg-white shadow-3xl flex items-center justify-center relative  xs:h-[63vw] lg:h-[17vw] w-full grain-dark rotate-[-5deg]">
                   <div className="w-[90%] h-[85%] bg-dark-500 grain relative shadow-3xl">
                     <Image
@@ -99,7 +104,7 @@ export default function History() {
           </div>
           <div className="grid xs:grid-cols-1 lg:grid-cols-2 gap-8">
             <div className="xs:order-last lg:order-none flex xs:items-start lg:items-center">
-              <div>
+              <div className="ml-0 lg:ml-[10vw]">
                 <h6 className="font-narrow-emberly xs:text-[3.6vw] lg:text-[1.2vw] text-light-500 mt-[3vh]">
                   January 2024 &mdash; Current
                 </h6>
@@ -126,13 +131,6 @@ export default function History() {
                     className="absolute w-full h-full object-contain"
                   />
                 </div>
-                {/* <div className="absolute top-[-50px] right-[-50px] shadow-3xl rotate-[-4deg]">
-                  <Image
-                    src={SaigonStamp3}
-                    alt="saigon-stamp-3"
-                    className="w-[134px] h-[154px]"
-                  />
-                </div> */}
               </div>
             </div>
           </div>

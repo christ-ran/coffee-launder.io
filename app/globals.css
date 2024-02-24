@@ -62,3 +62,21 @@ h2, h3 {
 html::-webkit-scrollbar {
   display: none;
 }
+
+.right-section {
+  grid-template-columns: 1fr;
+}
+
+.left-section {
+  grid-template-columns: 1fr;
+}
+
+@media only screen and (min-width: 1024px)  {
+  .left-section {
+    grid-template-columns: 15vw 69vw;
+  }
+
+  .right-section {
+    grid-template-columns: 69vw 15vw;
+  }
+}

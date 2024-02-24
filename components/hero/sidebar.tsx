@@ -39,7 +39,6 @@ export default function Sidebar() {
             id="hero-h2-coffee-launder"
             className="font-narrow-emberly text-[5.5vh] font-bold uppercase"
           >
-            {/* coffee &mdash; launder */}
             ポートフォリオ
           </h2>
         </div>
